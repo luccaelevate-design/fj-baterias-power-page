@@ -8,7 +8,7 @@ const Services = () => {
       icon: ShoppingCart,
       title: "Vendas de Baterias",
       description: "Baterias tracionárias de alta qualidade para empilhadeiras, transpaletes e equipamentos industriais.",
-      features: ["Marcas renomadas", "Garantia estendida", "Entrega rápida", "Preços competitivos"]
+      features: ["Garantia estendida", "Entrega rápida", "Preços competitivos"]
     },
     {
       icon: Calendar,
@@ -20,7 +20,7 @@ const Services = () => {
       icon: Settings,
       title: "Manutenção Especializada",
       description: "Serviços completos de manutenção preventiva e corretiva para prolongar a vida útil das baterias.",
-      features: ["Técnicos qualificados", "Peças originais", "Atendimento 24h", "Relatórios detalhados"]
+      features: ["Técnicos qualificados", "Peças originais", "Relatórios detalhados"]
     }
   ];
 
@@ -75,7 +75,9 @@ const Services = () => {
                   ))}
                 </ul>
                 <Button variant="outline" className="w-full">
-                  Saiba Mais
+                    <a href="http://wa.me/5511976243616" target="_blank" rel="noopener noreferrer">
+                        Saiba Mais
+                    </a>
                 </Button>
               </CardContent>
             </Card>

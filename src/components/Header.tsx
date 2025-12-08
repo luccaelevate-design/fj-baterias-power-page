@@ -32,15 +32,13 @@ const Header = () => {
             <div className="hidden sm:flex items-center space-x-4 text-sm">
               <div className="flex items-center space-x-1">
                 <Phone className="w-4 h-4 text-accent" />
-                <span className="text-muted-foreground">(11) 9999-9999</span>
-              </div>
-              <div className="flex items-center space-x-1">
-                <Mail className="w-4 h-4 text-accent" />
-                <span className="text-muted-foreground">contato@fjbaterias.com.br</span>
+                <span className="text-muted-foreground">(11) 97624-3616</span>
               </div>
             </div>
             <Button variant="energy" size="sm">
-              Solicitar Orçamento
+                <a href="http://wa.me/5511976243616" target="_blank" rel="noopener noreferrer">
+                    Solicitar Orçamento
+                </a>
             </Button>
           </div>
         </div>
