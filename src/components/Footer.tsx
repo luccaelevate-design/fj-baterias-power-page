@@ -45,11 +45,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-accent" />
-                <span className="text-primary-foreground/80">(11) 9999-9999</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-accent" />
-                <span className="text-primary-foreground/80">contato@fjbaterias.com.br</span>
+                <span className="text-primary-foreground/80">(11) 97624-3616</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-accent" />
@@ -62,7 +58,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-primary-foreground/60 text-sm">
-              © 2024 FJ Baterias. Todos os direitos reservados.
+              © 2025 FJ Baterias. Todos os direitos reservados.
             </p>
             <div className="flex space-x-6 text-sm text-primary-foreground/60">
               <a href="#" className="hover:text-accent transition-colors">Política de Privacidade</a>

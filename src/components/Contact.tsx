@@ -9,26 +9,26 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Telefone",
-      info: "(11) 9999-9999",
+      info: "(11) 97624-3616",
       description: "Ligue agora para falar conosco"
     },
     {
       icon: Mail,
-      title: "E-mail",
-      info: "contato@fjbaterias.com.br",
-      description: "Envie sua mensagem por e-mail"
+      title: "Whatsapp",
+      info: "(11) 97624-3616",
+      description: "Envie sua mensagem pelo Whatsapp"
     },
     {
       icon: MapPin,
       title: "Endereço",
       info: "São Paulo - SP",
-      description: "Atendemos toda região metropolitana"
+      description: "Atendemos o estado de São Paulo"
     },
     {
       icon: Clock,
       title: "Horário",
-      info: "Seg-Sex: 8h às 18h",
-      description: "Suporte técnico 24h para emergências"
+      info: "Seg-Sex: 7h às 17h",
+      description: "Suporte técnico"
     }
   ];
 
@@ -86,7 +86,9 @@ const Contact = () => {
                 produto ideal até a manutenção especializada.
               </p>
               <Button variant="energy" size="lg">
-                Solicitar Atendimento
+                <a href="http://wa.me/5511976243616" target="_blank" rel="noopener noreferrer">
+                  Solicitar Atendimento
+                </a>
               </Button>
             </div>
           </div>
@@ -122,7 +124,7 @@ const Contact = () => {
                   <label className="text-sm font-medium text-foreground mb-2 block">
                     Telefone *
                   </label>
-                  <Input type="tel" placeholder="(11) 99999-9999" />
+                  <Input type="tel" placeholder="(11) 97624-3616" />
                 </div>
               </div>
 
@@ -150,7 +152,9 @@ const Contact = () => {
               </div>
 
               <Button variant="hero" size="lg" className="w-full">
-                Enviar Solicitação
+                <a href="http://wa.me/5511976243616" target="_blank" rel="noopener noreferrer">
+                  Enviar Solicitação
+                </a>
               </Button>
 
               <p className="text-xs text-muted-foreground text-center">

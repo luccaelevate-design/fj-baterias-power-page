@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-industrial.jpg";
 
 const Hero = () => {
   return (
-    <section id="inicio" className="min-h-screen bg-section-gradient pt-16">
+    <section id="inicio" className="bg-section-gradient pt-16">
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -55,10 +55,14 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="lg" className="text-lg px-8">
-                Solicitar Orçamento
+                <a href="http://wa.me/5511976243616" target="_blank" rel="noopener noreferrer">
+                    Solicitar Orçamento
+                </a>
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8">
-                Falar com Especialista
+                <a href="http://wa.me/5511976243616" target="_blank" rel="noopener noreferrer">
+                    Falar com Especialista
+                </a>
               </Button>
             </div>
           </div>

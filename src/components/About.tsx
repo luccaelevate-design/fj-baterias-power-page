@@ -17,13 +17,13 @@ const About = () => {
     },
     {
       icon: MapPin,
-      number: "3",
+      number: "SP",
       label: "Estados de Atuação",
-      description: "Cobertura em SP, RJ e MG"
+      description: "Cobertura no estado SP"
     },
     {
       icon: Clock,
-      number: "24h",
+      number: "7h - 17",
       label: "Suporte Técnico",
       description: "Atendimento quando precisar"
     }
