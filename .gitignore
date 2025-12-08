@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+/.vs/fj-baterias-power-page/CopilotIndices/0.2.1657.32929
+*.vsidx
+/.vs/fj-baterias-power-page/v17
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
