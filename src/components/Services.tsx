@@ -74,11 +74,11 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" className="w-full">
-                    <a href="http://wa.me/5511976243616" target="_blank" rel="noopener noreferrer">
-                        Saiba Mais
-                    </a>
-                </Button>
+                <a href="http://wa.me/5511976243616" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" className="w-full">
+                            Saiba Mais
+                    </Button>
+                </a>
               </CardContent>
             </Card>
           ))}
