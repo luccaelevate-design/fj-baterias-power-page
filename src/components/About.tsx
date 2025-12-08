@@ -70,7 +70,7 @@ const About = () => {
 
           <div className="grid grid-cols-2 gap-6">
             {stats.map((stat, index) => (
-              <Card key={index} className="text-center p-6 border-2 hover:border-accent transition-colors duration-300 shadow-elegant">
+              <Card key={index} className="text-center p-3 border-2 hover:border-accent transition-colors duration-300 shadow-elegant">
                 <CardContent className="space-y-4">
                   <div className="w-16 h-16 bg-hero-gradient rounded-2xl flex items-center justify-center mx-auto">
                     <stat.icon className="w-8 h-8 text-primary-foreground" />
