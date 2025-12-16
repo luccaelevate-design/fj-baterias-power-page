@@ -32,7 +32,7 @@ const Header = () => {
             <div className="hidden sm:flex items-center space-x-4 text-sm">
               <div className="flex items-center space-x-1">
                 <Phone className="w-4 h-4 text-accent" />
-                <span className="text-muted-foreground">(11) 97624-3616</span>
+                <span className="text-muted-foreground">(11) 9390-7700</span>
               </div>
             </div>
             <Button variant="energy" size="sm">
