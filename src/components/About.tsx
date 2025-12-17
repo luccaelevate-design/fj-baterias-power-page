@@ -5,7 +5,7 @@ const About = () => {
   const stats = [
     {
       icon: Award,
-      number: "Qualidade",
+      number: "100%",
       label: "Competência técnica certificada.",
       description: "Sólida trajetória no mercado"
     },
