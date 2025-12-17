@@ -55,12 +55,12 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="lg" className="text-lg px-8">
-                <a href="http://wa.me/5511976243616" target="_blank" rel="noopener noreferrer">
+                <a href="http://wa.me/5511939307700" target="_blank" rel="noopener noreferrer">
                     Solicitar Orçamento
                 </a>
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8">
-                <a href="http://wa.me/5511976243616" target="_blank" rel="noopener noreferrer">
+                <a href="http://wa.me/5511939307700" target="_blank" rel="noopener noreferrer">
                     Falar com Especialista
                 </a>
               </Button>
